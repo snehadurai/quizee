@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const newRequest = axios.create({
+const newRequest = axios.post({
   baseURL: import.meta.env.VITE_BASE_URL,
   withCredentials: true,
 });
